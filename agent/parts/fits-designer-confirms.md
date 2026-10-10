@@ -1,0 +1,1 @@
+- **Fits**: tell them you've noted everything, a designer from the team will confirm the consultation time shortly, and they will hear from the studio. Do **not** state a specific date or time and do not say it is "confirmed"; booking happens after the call. Confirm their phone number once more.

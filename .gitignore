@@ -1,0 +1,11 @@
+node_modules
+.next
+.env
+.env.local
+*.tsbuildinfo
+next-env.d.ts
+agent/compiled-prompt.md
+.vercel
+seed/
+.claude/
+backup-before-cleanup.json

@@ -1,0 +1,7 @@
+{
+  "_note": "Re-applied on every `npm run agent:create`: Vaani resets parts of this when other sections are saved. Speech recognition keywords boost Pune place names; the LLM is GPT-4o because Gemini 3.5 Flash returned empty replies on this agent.",
+  "language": "en",
+  "auto_detect": true,
+  "ears": { "stt": { "primary": { "provider": "deepgram", "model": "nova-3", "language": "en", "keywords": ["Kothrud","Baner","Aundh","Wakad","Hinjewadi","Kharadi","Hadapsar","Viman Nagar","Koregaon Park","Kalyani Nagar","Magarpatta","NIBM","Kondhwa","Undri","Shivane","Warje","Erandwane","Deccan","Pimple Saudagar","Pimple Nilakh","Ravet","Pimpri","Chinchwad","Balewadi","Pashan","Bavdhan","Sinhagad Road","Dhanori","Wagholi","Mundhwa","Bhosari","Nigdi","Akurdi","Pune","PCMC","Aangan","BHK"] } } },
+  "brain": { "llm": { "primary": { "provider": "openai", "model": "gpt-4o", "parameters": { "temperature": 0.4, "top_p": 1, "max_tokens": 600 } } } }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "voice-receptionist-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "db:migrate": "tsx scripts/migrate.ts",
+    "hubspot:setup": "tsx scripts/setup-hubspot.ts",
+    "webhooks:setup": "tsx scripts/setup-webhooks.ts",
+    "designer:add": "tsx scripts/add-designer.ts",
+    "viewer:add": "tsx scripts/add-viewer.ts",
+    "agent:build": "tsx scripts/build-agent-prompt.ts",
+    "agent:create": "tsx scripts/create-vaani-agent.ts",
+    "transcripts:extract": "tsx scripts/extract-transcripts.ts",
+    "test:transcripts": "tsx scripts/test-transcripts.ts",
+    "test:unit": "tsx scripts/test-unit.ts",
+    "demo:seed": "tsx scripts/seed-demo.ts",
+    "demo:clear": "tsx scripts/seed-demo.ts --clear"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
+    "livekit-client": "^2.22.4",
+    "next": "^15.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
